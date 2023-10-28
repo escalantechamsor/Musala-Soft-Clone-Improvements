@@ -1,0 +1,12 @@
+.card_container:hover .leadership_details{
+height: 100%;
+transition:.5s ease-in-out;
+}
+.card_container:hover .leadership_details .details{
+    display: flex;
+}
+.card_container:hover img{
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+    transform:  .5s ease-in-out;
+}

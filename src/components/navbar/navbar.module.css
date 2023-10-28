@@ -1,0 +1,41 @@
+.navbar {
+    box-sizing: border-box;
+    transition: .5s;
+
+}
+
+.comunity:hover ul {
+    transition: .5s ease-in-out;
+    display: block;
+}
+
+.sidebar::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.sidebar::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+.sidebar::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.sidebar {
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+}
+
+.sidebar::-webkit-scrollbar-button:increment,
+.sidebar::-webkit-scrollbar-button {
+    display: none;
+}
