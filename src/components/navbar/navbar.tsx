@@ -27,7 +27,7 @@ function NavBar() {
   const joinus_button = 'py-3 px-5 w-[120px] rounded-sm shadow-xl font-medium hover:bg-[#3896ab] hover:text-gray-100 transition-all ';
 
   return (
-    <nav id='navbar' className={`${scrolling ? 'bg-opacity-95 text-gray-800' : 'lg:bg-opacity-10 bg-opacity-40'}  w-full h-[17vh]   bg-gray-100 flex items-center justify-between lg:px-[50px] px-5 fixed top-0  ${styles.navbar} z-20 py-2 text-gray-100 `}>
+    <nav id='navbar' className={`${scrolling ? 'bg-opacity-95 text-gray-800' : 'lg:bg-opacity-10 bg-opacity-40'}  w-full h-[17vh]   bg-gray-100 flex items-center justify-between lg:px-[50px] px-5 fixed top-0  ${styles.navbar} z-50 py-2 text-gray-100 `}>
 
       <button
         type='button'

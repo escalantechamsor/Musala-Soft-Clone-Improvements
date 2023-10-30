@@ -14,7 +14,7 @@ export default function Home() {
       <CompanyInfo />
       <Services />
       <MapLocation />
-      <h2 className='lg:text-[2.4rem] md:text-[2rem] text-[1.4rem] px-2  font-extrabold w-full text-[#409bb0] text-center uppercase mb-3 mt-4'>Contact us</h2>
+      <h2 className='lg:text-[2.4rem] md:text-[2rem] text-[1.8rem] px-2 font-extrabold w-full text-[#409bb0] text-center uppercase mb-3 lg:mt-4 mt-0'>Contact us</h2>
       <Footer />
     </section>
   )

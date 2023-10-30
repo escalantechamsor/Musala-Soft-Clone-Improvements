@@ -11,7 +11,7 @@ function LeaderShip() {
         <section className='w-full min-h-[80vh]  mb-5'>
             <h2 className='lg:text-[2.4rem] text-[2rem] font-extrabold w-full text-[#409bb0] text-center uppercase mb-3 mt-2'>Leadership</h2>
 
-            <section className='lg:w-full sm:w-[90%] w-[95%] mx-auto min-h-[80vh] grid lg:grid-cols-3 grid-cols-1 sm:grid-cols-2 gap-7 px-[50px] py-3'>
+            <section className='lg:w-full sm:w-[90%] w-[95%] mx-auto min-h-[80vh] grid lg:grid-cols-3 grid-cols-1 sm:grid-cols-2 gap-7 lg:px-[50px] py-3 px-[25px]'>
 
                 <div className={`${card_container}`}>
                     <Image className='h-[70vh] w-full bg-cover' src={ceodelyan} alt='Delyan_Lilov_CEO' />

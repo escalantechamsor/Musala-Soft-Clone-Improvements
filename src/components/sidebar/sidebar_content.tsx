@@ -13,7 +13,7 @@ interface Props {
 function SidebarContent({toggleNavBar,collapse,setCollapse}: Props) {
     
     const community_links_responsive = 'mt-2 p-2 py-3 hover:bg-gray-100 hover:text-gray-700 px-2 hover:border-r-4 hover:border-r-[#3896ab]';
-    const aside_style = 'h-[83vh] transition-all absolute top-[17vh] left-0 bg-gray-100 z-20 lg:hidden flex items-center justify-start';
+    const aside_style = 'h-[83vh] transition-all absolute top-[17vh] left-0 bg-gray-100 z-40 lg:hidden flex items-center justify-start';
     const community_collapse = 'w-full p-5 cursor-pointer hover:bg-gray-200 hover:bg-opacity-70 transition-all pl-8 border-b-[1px] border-gray-200 ';
     return (
          <aside className={`${toggleNavBar ? "w-[320px] " : "w-0"} ${aside_style} `}>

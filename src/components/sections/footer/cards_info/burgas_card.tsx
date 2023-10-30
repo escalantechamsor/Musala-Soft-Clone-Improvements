@@ -5,7 +5,7 @@ import { HiMail } from 'react-icons/hi';
 import { BsTelephoneFill } from 'react-icons/bs';
 function BurgasCard() {
   return (
-    <article className='min-h-[60vh] flex flex-col text-gray-100'>
+    <article className='md:min-h-[60vh] flex flex-col text-gray-100'>
     <h3 className='text-[2.5rem] font-bold w-full text-center'>
       Burgas
     </h3>

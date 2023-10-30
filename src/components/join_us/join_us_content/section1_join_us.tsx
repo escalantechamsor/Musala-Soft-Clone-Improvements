@@ -11,7 +11,7 @@ function Section1JoinUs() {
 
   return (
     <section className='w-full min-h-[100vh] bg-gray-100 lg:p-5 p-1'>
-      <h2 className='lg:text-[2.4rem] md:text-[2rem] text-[1.4rem] px-2  font-extrabold w-full text-[#409bb0] text-center uppercase mb-3 '>Our latest offers</h2>
+      <h2 className='lg:text-[2.4rem] md:text-[2rem] text-[1.4rem] px-2 font-extrabold w-full text-[#409bb0] text-center uppercase mb-3 '>Our latest offers</h2>
       <div className='w-full h-[12vh] rounded-sm mb-3 flex items-center justify-end p-2'>
         <p className='lg:text-lg text-base mr-3 text-gray-800'>Filter by location</p>
         <select

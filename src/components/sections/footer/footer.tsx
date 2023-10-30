@@ -8,9 +8,9 @@ import SkopjeCard from './cards_info/skopje_card';
 
 function Footer() {
   return (
-    <section className='w-full min-h-[70vh] bg-gray-800 flex items-center justify-center '>
+    <section className='w-full min-h-[70vh] bg-[#409bb0] flex items-center lg:justify-center justify-start '>
 
-      <section className='w-full lg:min-h-[70vh]  min-h-[60vh] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  gap-7 p-10 items-center'>
+      <section className='w-full lg:min-h-[60vh]  min-h-[60vh] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-7 p-10 items-center'>
 
         <SofiaCard />
 
